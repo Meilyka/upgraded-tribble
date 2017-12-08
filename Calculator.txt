@@ -1,0 +1,9 @@
+So, in this exercise, we are going to create a calculator.
+
+We are going to create these different type of calculator:
+- Plus only calculator
+- Plus Minus Multiply Divide calculator
+- Complex calculator
+- Beautify the calculator
+
+So, we start with plus only calculator

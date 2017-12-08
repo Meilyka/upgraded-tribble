@@ -1,0 +1,35 @@
+Okay, So here is the txt file that i will use as a change log, or update log.
+Any update about a progress, or finding should be updated to this file.
+
+Today, we are going to learn about variables and functions.
+
+Variables are like X and Y in Mathematics , however the X and Y here can store more than just a number.
+There are several variables type that are available in javascript.
+There are integer, float, string, boolean, array, object, and maybe something else, but these
+are the ones that i frequently used.
+You can read what are those for beter understanding.
+
+Functions are something that do something.
+Functions are like the secret magic of programming, but in fact, well, it is just a script
+written and prepared to do something.
+However function will need to be invoked, before you can see its effect.
+How to abstract a thing into a function is also a very important skill.
+
+Lets say, this is a restaurant, then you have chef, waiter, and manager.
+Chef function will be cooking, cutting and stuff,
+Waiter function will be receiving order, refilling water, and stuff,
+Manager function will be managing cashier and stuff..
+
+So, we have three functions here which will execute their task.
+But what if there is a new role call intern.
+Intern can do chef and waiter job.
+If we create another function called waiter, then we give them capabilities of cooking, and receiving
+order, then dont you think we are doing redundancy? You see, this is only one new role, what if there
+are 10?
+
+Then, we know that, this is not the right abstraction. Instead of abstracting it by role, why dont we
+abstract it by an activity? So there will be
+cooking function, cutting function, etc. In this way, we only write it once and reuse it forever.
+
+This is the fundamental concept of DRY (Don't Repeat Yourself), and also simple, as the complexity
+become lesser if you abstract it this way, which satisfy the concept of KISS (Keep It Simple Stupid).
