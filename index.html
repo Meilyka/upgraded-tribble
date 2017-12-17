@@ -3,27 +3,103 @@
 
 <head>
     <title> Calculator | Simple</title>
+    <!-- External Script Tags START -->
+
+    <!-- External Script Tags END -->
+    <!-- External Styles Tags START -->
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet" />
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous" />
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
+    <!-- External Styles Tags END -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.bundle.min.js" integrity="sha384-3ziFidFTgxJXHMDttyPJKDuTlmxJlwbSkojudK/CkRqKDOmeSbN6KLrGdrBQnT2n" crossorigin="anonymous"></script>
+    <!-- Custom JavaScript Tag START -->
     <script type="text/javascript">
-        // this line is ignored because it is just for commenting purpose
-        // The function calculate, is just a function while it is not called.
+        // Initializing tooltip : START
+        $(document).ready(function() {
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+        // Initializing tooltip: END
+
         var sum
-            // We call this on button onClick event
 
         function calculate() {
             let valueOne, valueTwo
-                // Step 1 : get the value of value 1 by document.getElementById('id1')
-                // Step 2 : get the value of value 2 by document.getElementById('id2')
-                // Step 3 : Do arithmatic operation + , and store it to variable sum . (sum = a + b)
-                // Step 4 : alert the sum result (alert(sum))
+
+            valueOne = document.getElementById('numberOne').value
+            valueTwo = document.getElementById('numberTwo').value
+
+            sum = +valueOne + +valueTwo
+            alert(sum)
         }
     </script>
+    <!-- Custom JavaScript Tag END -->
+    <!-- Custom CSS Styles Tag START -->
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        button:hover {
+            cursor: pointer;
+        }
+        
+        input {
+            padding: 4px;
+            margin: 4px auto;
+        }
+        
+        header {
+            width: 100vw;
+            padding: 20px;
+            background-color: #39454F;
+            color: #D5A020;
+            box-shadow: 1px 1px 10px black;
+            font-family: 'Oswald', sans-serif;
+        }
+        
+        .wrap {
+            height: 100vh;
+            width: 100vw;
+            background-color: #F6F6F6;
+        }
+        
+        .main-content {
+            display: block;
+            min-height: 300px;
+            width: 100vw;
+            text-align: center;
+            padding: 20px 0px;
+        }
+        
+        .calculator {
+            display: inline-block;
+            padding: 10px;
+            background-color: #113346;
+            color: #D5A020;
+            text-align: right;
+            margin: 0 auto;
+            border-radius: 4px;
+        }
+    </style>
+    <!-- Custom CSS Styles Tag END  -->
 </head>
 
 <body>
-    <div class="calculator">
-        <input type="number" id="pleasenameit" required step="any" />
-        <input type="number" id="pleasenameit" required step="any" />
-        <button type="submit" onClick="calculate()">Calculate</button>
+    <div class="wrap">
+        <header>
+            <h1>Calculator Application</h1>
+        </header>
+        <section class="main-content">
+            <div class="calculator">
+                <i class="fa fa-question-circle" aria-hidden="true" data-placement="top" data-toggle="tooltip" title="This is the simple calculator function that takes two arguments and add it after calculate button is clicked"></i>
+                <br/>
+                <input class="form-control" type="number" id="numberOne" required step="any" placeholder="First Number" />
+                <input class="form-control" type="number" id="numberTwo" required step="any" placeholder="Second Number" />
+                <button class="btn btn-block btn-info" type="submit" onClick="calculate()"><i class="fa fa-calculator" aria-hidden="true"></i> Calculate</button>
+            </div>
+        </section>
     </div>
 </body>
 
