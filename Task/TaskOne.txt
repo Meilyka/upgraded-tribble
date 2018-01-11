@@ -1,0 +1,8 @@
+The goal of task one is to help you familiarize a bit.
+
+JS task: 
+- Change alert addition (+) to multiplication (*). 
+    * Along the way, you can try division (/), and subtraction(-) too
+
+CSS tasks:
+- Change the dark grey header background color to something else. Refer to color code in http://htmlcolorcodes.com/
