@@ -1,4 +1,19 @@
-The goal of task one is to help you familiarize a bit.
+After every task is finished, please do : 
+1. Open Sourcetree
+2. Commit with message "task x"
+3. Stage All
+4. Commit
+5. Push
+
+The goal of task one is to help you familiarize with the environment a bit.
+There are three subjects that you will have to go through, which are:
+1. HTML
+2. CSS
+3. JS
+
+We will go through each small task assigned to each subject, and get closer to 
+finish a workable application.
+So here is task 1
 
 JS task: 
 - Change alert addition (+) to multiplication (*). 
@@ -6,3 +21,10 @@ JS task:
 
 CSS tasks:
 - Change the dark grey header background color to something else. Refer to color code in http://htmlcolorcodes.com/
+
+Reflection (Read this upon completion):
+Here you can see that JS has the responsibility to be the brain of the whole system. 
+It does what is invisible to normal people, and is a set of you which you ask to perform 
+certain operation.
+
+CSS on the other hand is the "clothes", which care about display.

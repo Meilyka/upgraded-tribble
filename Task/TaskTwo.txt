@@ -1,0 +1,51 @@
+After every task is finished, please do : 
+1. Open Sourcetree
+2. Commit with message "task x"
+3. Stage All
+4. Commit
+5. Push
+
+The goal of task two is to separate the subjects to enable better working environment.
+Just imagine, if this is a big app. 
+There will be a lot of JavaScript and CSS, and if we write it down in one HTML file,
+it will be very long, and when you want to change something, it will be frustrating.
+
+With that being said, we acknowledge the importance of principle separation. 
+We need to move out what should not be there.
+Since the file is .html, then we need to move out javascript and css.
+
+(Now we are still embedding it inside the index.html file with javascript lives inside <script> tag,
+and css lives inside <style> tag.)
+
+General Step task:
+1. Know what is root directory , when i say root. Root is the top directory of the project, when i say 
+  root directory of this project, it means it is the level where Calculator.txt, index.html, READTHIS.txt 
+  exists. So, Task folder is in root directory, but TaskOne, TaskTwo are not. They are in Task directory.
+  (Directory can be said as folder too)
+2. Create a directory in the root directory named 'src'
+3. Inside src directory, creates two more directories named 'scripts' and 'styles'
+4. Inside 'scripts' directory, create a file named 'index.js' (js = javascript file)
+5. Inside 'styles' directory, create a file named 'index.css' (css = css file)
+
+JS task: 
+- Migrate all the content within <script> tag to index.js (don't forget to save, lol)
+- Remove all the content within <script> tag
+- Link the index.html so that it reads index.js.
+    This one i will let you figure it out, but i will give you a hint
+    (i.e. <script src="">) The rest you need google.
+- If successfully linked, you should be able to perform calculation
+
+CSS tasks:
+- Migrate all the content within <style> tag to index.css (don't forget to save, lol)
+- Remove all the content within <style> tag,
+- Link the index.html so that it reads index.css
+    Figure it out. hint
+    (i.e. <link href="">)
+- If successfully linked, you should be able to see the applied style
+
+Reflection (Read this upon completion):
+Here you can see the separation of concern to enable efficient working environment.
+Lets say you have a team, you can ask js expert to modify index.js, and css expert to 
+modify index.css, isn't it more flexible and speed up development?
+
+Remember one important mindset : "always think how to simplify, and not how to make it complex"
