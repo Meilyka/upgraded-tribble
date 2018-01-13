@@ -8,7 +8,7 @@ After every task is finished, please do :
 The goal of task two is to separate the subjects to enable better working environment.
 Just imagine, if this is a big app. 
 There will be a lot of JavaScript and CSS, and if we write it down in one HTML file,
-it will be very long, and when you want to change something, it will be frustrating.
+it will be very long, and when you want to change something, it will be very frustrating.
 
 With that being said, we acknowledge the importance of principle separation. 
 We need to move out what should not be there.
@@ -47,5 +47,6 @@ Reflection (Read this upon completion):
 Here you can see the separation of concern to enable efficient working environment.
 Lets say you have a team, you can ask js expert to modify index.js, and css expert to 
 modify index.css, isn't it more flexible and speed up development?
+The separation of concern is built for better development
 
-Remember one important mindset : "always think how to simplify, and not how to make it complex"
+Remember one important programming rule : KISS (Keep It Simple, Stupid)
