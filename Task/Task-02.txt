@@ -1,9 +1,6 @@
-After every task is finished, please do : 
-1. Open Sourcetree
-2. Commit with message "task x"
-3. Stage All
-4. Commit
-5. Push
+Estimated time needed : 10 minutes
+Focus  : general
+difficulty : easy
 
 The goal of task two is to separate the subjects to enable better working environment.
 Just imagine, if this is a big app. 

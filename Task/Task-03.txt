@@ -1,0 +1,31 @@
+Estimated time needed : 1 hour
+Focus : JS logic 
+difficulty : Hard (for now)
+
+In this part, lets apply back task one concept to get you more familiarize
+In task one, i setup a file named index.html.
+we abandon that for now, and now please:
+
+1. create a new file in the same directory level as index.html
+2. name it something related to this task, maybe name-register.html
+
+In this file, copy paste over all the content from index.html, and DONT FORGET to save after that.
+Now, remove an input type="number", as we only need one input type.
+And then between the button tag, change "calculate" to save
+
+Then the remaining input type="number", please change it to string.
+
+Now, what you should accomplish is :
+
+    "Let user key in their name, and then when they click on the save button, save their credential"
+
+Hint :
+Please use javascript localstorage method setItem.
+
+Achievable :
+When you think it is correct, right click on browser, choose inspect, then go to application tab
+Find the storage Local Storage, then check if the key and value is correct or wrong.
+
+
+Ref:
+https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage

@@ -1,0 +1,18 @@
+Estimated time needed : 20 minutes
+Focus : JS logic 
+difficulty : Easy 
+
+Now we can store into local storage.
+How would it be used? 
+Here we are going to explore.
+
+File : we still use back the file you created on task 3
+
+Things to do :
+    - Explore a function which is initialization during document preparation (this one got the more understandable version , maybe in task 05 we will explore that)
+    - Apply that function, then ask it to get local storage, then alert it out the name.
+
+
+Ref:
+https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage
+https://stackoverflow.com/questions/9899372/pure-javascript-equivalent-of-jquerys-ready-how-to-call-a-function-when-t
